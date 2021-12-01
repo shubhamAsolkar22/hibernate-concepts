@@ -1,10 +1,10 @@
-package com.techcross.intro;
+package com.fkog.intro;
 
 import java.util.Date;
 
 import org.hibernate.Session;
 
-import com.techcross.util.HibernateUtils;
+import com.fkog.util.HibernateUtils;
 
 public class IntroApp {
 	public static void main(String[] args) {

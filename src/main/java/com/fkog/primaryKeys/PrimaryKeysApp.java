@@ -1,8 +1,8 @@
-package com.techcross.primaryKeys;
+package com.fkog.primaryKeys;
 
 import org.hibernate.Session;
 
-import com.techcross.util.HibernateUtils;
+import com.fkog.util.HibernateUtils;
 
 public class PrimaryKeysApp {
 	public static void main(String[] args) {

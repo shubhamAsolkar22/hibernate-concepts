@@ -1,4 +1,4 @@
-package com.techcross.primaryKeys;
+package com.fkog.primaryKeys;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

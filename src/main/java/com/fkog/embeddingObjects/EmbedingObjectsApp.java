@@ -1,8 +1,8 @@
-package com.techcross.embeddingObjects;
+package com.fkog.embeddingObjects;
 
 import org.hibernate.Session;
 
-import com.techcross.util.HibernateUtils;
+import com.fkog.util.HibernateUtils;
 
 public class EmbedingObjectsApp {
 	public static void main(String[] args) {

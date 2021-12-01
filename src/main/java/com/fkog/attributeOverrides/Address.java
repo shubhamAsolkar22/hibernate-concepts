@@ -1,4 +1,4 @@
-package com.techcross.attributeOverrides;
+package com.fkog.attributeOverrides;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;

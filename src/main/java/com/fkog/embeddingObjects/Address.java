@@ -1,4 +1,4 @@
-package com.techcross.embeddingObjects;
+package com.fkog.embeddingObjects;
 
 import javax.persistence.Embeddable;
 

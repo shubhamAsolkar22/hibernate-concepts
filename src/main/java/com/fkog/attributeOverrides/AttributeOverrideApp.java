@@ -1,8 +1,8 @@
-package com.techcross.attributeOverrides;
+package com.fkog.attributeOverrides;
 
 import org.hibernate.Session;
 
-import com.techcross.util.HibernateUtils;
+import com.fkog.util.HibernateUtils;
 
 public class AttributeOverrideApp {
 	public static void main(String[] args) {
