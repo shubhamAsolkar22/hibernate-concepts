@@ -13,5 +13,8 @@
         <property name="format_sql">false</property>
         <property name="hbm2ddl.auto">create</property>
         <mapping class="com.techcross.intro.UserDetails"/>
+        <mapping class="com.techcross.primaryKeys.UserDetails2"/>
+        <mapping class="com.techcross.embeddingObjects.UserDetails3"/>
+        <mapping class="com.techcross.attributeOverrides.UserDetails4"/>
     </session-factory>
 </hibernate-configuration>
