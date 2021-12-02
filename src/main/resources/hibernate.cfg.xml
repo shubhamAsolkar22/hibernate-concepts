@@ -16,5 +16,6 @@
         <mapping class="com.fkog.primaryKeys.UserDetails2"/>
         <mapping class="com.fkog.embeddingObjects.UserDetails3"/>
         <mapping class="com.fkog.attributeOverrides.UserDetails4"/>
+        <mapping class="com.fkog.savingCollections.UserDetails5"/>
     </session-factory>
 </hibernate-configuration>
