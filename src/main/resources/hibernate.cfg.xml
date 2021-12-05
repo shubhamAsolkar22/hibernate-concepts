@@ -16,7 +16,13 @@
         <mapping class="com.fkog.primaryKeys.UserDetails2"/>
         <mapping class="com.fkog.embeddingObjects.UserDetails3"/>
         <mapping class="com.fkog.attributeOverrides.UserDetails4"/>
-        <mapping class="com.fkog.savingCollections.UserDetails5"/> -->
-        <mapping class="com.fkog.eagerAndLazy.UserDetails6"/>
+        <mapping class="com.fkog.savingCollections.UserDetails5"/>
+        <mapping class="com.fkog.eagerAndLazy.UserDetails6"/> 
+        <mapping class="com.fkog.oneToOneMapping.UserDetails7"/>
+        <mapping class="com.fkog.oneToOneMapping.Vehicle"/>
+        <mapping class="com.fkog.oneToMany.UserDetails8"/>
+        <mapping class="com.fkog.oneToMany.Vehicle"/>-->
+        <mapping class="com.fkog.oneToMany.UserDetails9"/>
+        <mapping class="com.fkog.oneToMany.Vehicle2"/>
     </session-factory>
 </hibernate-configuration>
