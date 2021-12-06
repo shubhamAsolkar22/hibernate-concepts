@@ -1,26 +1,28 @@
+package com.fkog.manyToMany;
 
-package com.fkog.oneToMany;
+import java.util.Collection;
+import java.util.Collections;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "TBL_VEHICLE")
-public class Vehicle2 {
+@Table(name = "TBL_VEHICLE3")
+public class Vehicle {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long vehicelId;
+	
 	private String vehicleName;
 
-	@ManyToOne
-	@JoinColumn(name = "USER_ID")
-	private UserDetails9 user;
+	@ManyToMany(cascade = CascadeType.ALL,mappedBy = "vehicles")
+	private Collection<UserDetails> userList = Collections.EMPTY_LIST;
 
 	public long getVehicelId() {
 		return vehicelId;
@@ -38,12 +40,12 @@ public class Vehicle2 {
 		this.vehicleName = vehicleName;
 	}
 
-	public UserDetails9 getUser() {
-		return user;
+	public Collection<UserDetails> getUserList() {
+		return userList;
 	}
 
-	public void setUser(UserDetails9 user) {
-		this.user = user;
+	public void setUserList(Collection<UserDetails> userList) {
+		this.userList = userList;
 	}
 
 }
